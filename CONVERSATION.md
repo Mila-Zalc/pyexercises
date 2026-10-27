@@ -297,3 +297,23 @@ numbers.sort()
 ```
 
 What does the method return?
+
+---
+## 2026-10-27 17:24, in .
+
+**Me:** What does copy() do in a Python list?
+
+**Tutor:**
+
+The concept is making an independent copy of a list.
+
+```python
+original = [10, 20, 30]
+copied = original.copy()   # TODO: what does this line create?
+
+copied[1] = 99            # change the copy
+print(original)            # what will this show?
+print(copied)              # what will this show?
+```
+
+Which built-in list method returns a new list instead of a reference?

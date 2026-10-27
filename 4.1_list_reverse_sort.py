@@ -25,28 +25,31 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: The original list of marketing channels from Exercise 4.0
-# 2. Process: The program displays the list in four different orders
-# 3. Out: The four orders, followed by the unchanged original list
-# 4. My four orders, and which ones modify the original:  My four orders are original, alphabetical, reverse alphabetical, and backwards
-# sort() and reverse() change the copies. The original list stays unchanged.
+# 1. In: The original list of ten numbers from Exercise 4.0
+# 2. Process: The program makes copies and displays the numbers in different orders
+# 3. Out: The original order, ascending order, descending order, and backwards order
+# 4. My four orders, and which ones modify the original: I chose those four orders. sort() and reverse() change copies; the original stays unchanged.
 
 
 # Your code below
-# Use the same original list as in Exercise 4.0.
-channels = ["email", "instagram", "facebook", "tiktok", "youtube", "google ads", "events", "direct mail"]
+# Make the original list from Exercise 4.0
+list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
 
-# Make a sorted copy and a backwards copy.
-alphabetical = channels.copy()
-alphabetical.sort()
-backwards = channels.copy()
+# Make copies and reorder them
+ascending = list_of_numbers.copy()
+ascending.sort()
+
+descending = sorted(list_of_numbers, reverse=True)
+
+backwards = list_of_numbers.copy()
 backwards.reverse()
 
-# Display the list in four different orders.
-print("Original order:", channels)
-print("Alphabetical:", alphabetical)
-print("Reverse alphabetical:", sorted(channels, reverse=True))
-print("Backwards:", backwards)
+# Display the list in four different orders
+print("Original order:", list_of_numbers)
+print("Ascending order:", ascending)
+print("Descending order:", descending)
+print("Backwards order:", backwards)
 
-# Display the original list again to prove it stayed unchanged.
-print("Original list at the end:", channels)
+# Display the original list again to check it stayed unchanged
+print("Original list at the end:", list_of_numbers)
+
