@@ -281,3 +281,19 @@ print(shallow_copy)    # [10, 99, 30]
 ```
 
 Which built-in list method returns a shallow copy of the list?
+
+---
+## 2026-10-27 17:13, in .
+
+**Me:** What does sort() do to a list?
+
+**Tutor:**
+
+Sorting a list in place.
+```python
+# TODO: change the list so it is sorted from low to high
+numbers = [3, 1, 4, 1, 5]
+numbers.sort()
+```
+
+What does the method return?

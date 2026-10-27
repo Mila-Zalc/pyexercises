@@ -26,24 +26,39 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: A list of eight marketing channels
-# 2. Process: The program displays the list, picks one channel, sorts the list, and counts the channels
-# 3. Out: The full list, one channel, the sorted list, and the number of channels
-# 4. What my list is about, and what I computed from it: My list is about marketing channels. I counted them to see how many ways a business can reach people
+# 1. In: Ten numbers
+# 2. Process: The program displays the list, shows the third item, sorts the list, and removes its last item
+# 3. Out: The numbers, the third item, the sorted list, and the list after removing the last item
+# 4. What my list is about, and what I computed from it: I remove the last item to see how pop() changes a list
 
 
-# Your code below
-# Make a list of eight marketing channels
-channels = ["email", "instagram", "facebook", "tiktok", "youtube", "google ads", "events", "direct mail"]
+# Store four numbers in separate variables
+number_1 = 2
+number_2 = 3
+number_3 = 4
+number_4 = 5
 
-# Show the whole list and its third item
-print("All the channels:", channels)
-print("The third channel:", channels[2])
+# Display the four numbers
+print(number_1)
+print(number_2)
+print(number_3)
+print(number_4)
 
-# Sort the list and show it
-channels.sort()
-print("The channels after sorting:", channels)
+# Create and display a list of ten numbers
+list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
+print("Listing all the numbers in the list")
+print(list_of_numbers)
 
-# Count the channels and show the result.
-print("Number of channels:", len(channels))
+# Display the third item in the list
+print("Listing the third item in the list")
+print(list_of_numbers[2])
 
+# Sort and display the list
+print("The list of numbers after sorting")
+list_of_numbers.sort()
+print(list_of_numbers)
+
+# Remove and display the last item
+list_of_numbers.pop()
+print("The list after removing the last item")
+print(list_of_numbers)
