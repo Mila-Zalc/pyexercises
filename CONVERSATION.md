@@ -377,3 +377,25 @@ for item in numbers:      # TODO choose a name for the loop variable
 ```
 
 What is the name of the loop variable in the example above?
+
+---
+## 2026-10-27 20:00, in .
+
+**Me:** In my 5.2 exercise, what does break do inside the while loop?
+
+**Tutor:**
+
+A break statement exits the nearest enclosing while loop immediately.
+
+```python
+# Count clicks until the budget is spent
+budget = 100
+clicks = 0
+while budget > 0:
+    clicks += 1
+    budget -= 2          # each click costs 2
+    if budget <= 0:
+        break            # TODO: what happens here?
+```
+
+What is the value of clicks when the loop ends?

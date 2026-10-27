@@ -35,7 +35,33 @@ DELIVERABLE
 
 
 # Your code below
-# Set the maximum attempts and starting values.
+# Set the maximum attempts and starting values
 attempt_limit = 10
 attempts = 0
-decision = "The maximum number of attempts was reached."
+decision = "No valid answer was given"
+
+# Ask until the user answers yes or no, or reaches the limit
+while attempts < attempt_limit:
+    attempts = attempts + 1
+    user_input = input("Do you want to continue? (yes/no): ").strip().lower()
+
+    if user_input == "yes":
+        print("You chose to continue")
+        decision = "The user chose to continue"
+        break
+    elif user_input == "no":
+        print("You chose to stop")
+        decision = "The user chose to stop"
+        break
+    else:
+        print("Invalid input. Please enter 'yes' or 'no'.")
+
+# Display a summary after the loop.
+print("Summary:", decision)
+print("Attempts:", attempts)
+
+
+
+
+
+
