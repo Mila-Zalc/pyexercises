@@ -235,3 +235,30 @@ rounded = int(float_value)  # TODO: What is the value of `rounded`?
 ```
 
 Question: Which argument does `int` take to perform the conversion?
+
+---
+## 2026-10-27 16:29, in .
+
+**Me:** what does the channels.sort() do in our code
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-27 16:29, in .
+
+**Me:** what does len() do
+
+**Tutor:**
+
+`len()` returns the number of items in a sequence (string, list, tuple, etc.).
+
+Pattern:
+```python
+# TODO: replace the toy string with your column header
+column_header = "campaign_name"
+print(len(column_header))  # counts characters
+```
+
+What does `len()` return when the string is empty?
