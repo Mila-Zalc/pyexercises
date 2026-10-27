@@ -262,3 +262,22 @@ print(len(column_header))  # counts characters
 ```
 
 What does `len()` return when the string is empty?
+
+---
+## 2026-10-27 16:41, in .
+
+**Me:** what does the copy() do in a list
+
+**Tutor:**
+
+Copying a list creates a new, independent copy of the list so changes to the new list do not affect the original.
+
+```python
+original = [10, 20, 30]
+shallow_copy = original.copy()   # TODO: what does this line do?
+shallow_copy[1] = 99
+print(original)        # [10, 20, 30]
+print(shallow_copy)    # [10, 99, 30]
+```
+
+Which built-in list method returns a shallow copy of the list?
