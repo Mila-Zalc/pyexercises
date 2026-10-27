@@ -23,10 +23,40 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+# 1. In: A customer's name, age, city, email, and status
+# 2. Process: Store the details, read and change a value, check a missing field, and remove a field
+# 3. Out: The customer's details and a message for the missing field
+# 4. My object, my five fields, and why those: My object is a customer. I chose these fields because they describe and help contact a customer
 
 
 # Your code below
+# Set the customer's details
+name = "Alex"
+age = 30
+city = "Paris"
+email = "alex@example.com"
+status = "New"
+
+# Put the details in a dictionary.
+customer = { 
+            "name": name,
+            "age": age,
+            "city": city,
+            "email": email,
+            "status": status
+}
+
+# Display the dictionary and read the customer's name.
+print("The dictionary is:", customer)
+print("Customer name:", customer["name"])
+
+# Change the customer's status
+customer["status"] = "Contacted"
+
+# Ask for a field that is missing without causing an error
+print("Phone:", customer.get("phone", "Field not found"))
+
+# Remove the city and display every remaining field with its value
+customer.pop("city")
+for field, value in customer.items():
+    print(field, ":", value)
