@@ -317,3 +317,27 @@ print(copied)              # what will this show?
 ```
 
 Which built-in list method returns a new list instead of a reference?
+
+---
+## 2026-10-27 19:00, in .
+
+**Me:** What does .get() do in a dictionary?
+
+**Tutor:**
+
+The `.get()` method safely retrieves a value from a dictionary without raising a KeyError if the key is missing.
+
+```python
+# Example: retrieving campaign names
+campaigns = {"spring": 1200, "summer": 800}
+
+# TODO: replace 'spring' with a key you want to fetch
+budget = campaigns.get("spring", 0)
+print(budget)  # prints 1200
+
+# TODO: replace 'autumn' with a missing key
+missing_budget = campaigns.get("autumn", 0)
+print(missing_budget)  # prints 0
+```
+
+What is the second argument in `.get()` used for?
