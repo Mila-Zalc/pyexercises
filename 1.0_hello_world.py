@@ -22,17 +22,20 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: 
-# 2. Process: 
-# 3. Out:
-# 4. My message, and why:
+# 1. In: a message and a number
+# 2. Process: the program repeats the message and count each lines
+# 3. Out: my name appears 5 times with numbers
+# 4. My message, and why: my name because i want the program to print it five times
 
 
 # Your code below
-print("hello,world!")
-print("1. Hello")
-print("2. Hello")
-print("3. Hello")
-print("4. Hello")
-print("5. Hello")
+print("Mila,world!")
+print("1. Mila")
+print("2. Mila")
+print("3. Mila")
+print("4. Mila")
+print("5. Mila")
+
+for i in range (0,5):
+    print("Mila")
 
