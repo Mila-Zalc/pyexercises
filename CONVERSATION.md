@@ -37,3 +37,20 @@ for product in products:
 ```
 
 What is the keyword that introduces the loop body?
+
+---
+## 2026-10-27 13:57, in .
+
+**Me:** how can I print my name 5 times with each line numbered? explain it simply
+
+**Tutor:**
+
+Concept: Repeating an action with a counter using a loop.
+
+```python
+# TODO: print your name 5 times with line numbers
+for i in range(5):
+    print(f"{i+1}. [your name]")
+```
+
+What does `range(5)` produce in this loop?
