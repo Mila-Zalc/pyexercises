@@ -104,3 +104,20 @@ print("Hello", name)
 ```
 
 What does print() return?
+
+---
+## 2026-10-27 15:21, in .
+
+**Me:** how to make a multipilication and an addition in the same code
+
+**Tutor:**
+
+Basic arithmetic operations
+
+```python
+# TODO: multiply two numbers and add a third
+result = # TODO
+print(result)
+```
+
+What function do you use to multiply two numbers?
