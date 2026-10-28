@@ -24,19 +24,19 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: A list of first names
-# 2. Process: The program shows each name, its position, and how many letters it has
-# 3. Out: One line for each name
-# 4. What I compute for each item, and why it is worth showing: I count the letters in each name because it shows the length of each name
+# 1. In: A list of 10 numbers from the list 4.0
+# 2. Process: Calculate the double of each number.
+# 3. Out: One line for each number
+# 4. What I compute for each item, and why it is worth showing: I calculate the double of each number to compare the original value with its double
 
 
 # Your code below
-# Make a list of eight first names.
-names = ["Maya", "Liam", "Sofia", "Noah", "Emma", "Lucas", "Chloe", "Ethan"]
+list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
 
-# Show each name, its position, and its number of letters
 position = 1
-for name in names:
-    print(position, name, "has", len(name), "letters")
+
+for number in list_of_numbers:
+    print("Position:", position, "Number:", number, "Double:", number * 2)
     position = position + 1
 
+# Check: 10 numbers = 10 lines printed.
