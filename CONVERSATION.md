@@ -861,3 +861,22 @@ print(cost * quantity)
 ```
 
 What does print() require as its argument?
+
+---
+## 2026-11-17 21:55, in .
+
+**Me:** how does the function division work?
+
+**Tutor:**
+
+Division in Python is handled by the `/` operator for true division and `//` for floor division.
+
+```python
+# True division (returns a float)
+result = 10 / 3  # result is 3.333...
+
+# Floor division (returns an integer, rounded down)
+result = 10 // 3  # result is 3
+```
+
+Which one do you need for calculating click-through rates (CTR) where you want a decimal value?
