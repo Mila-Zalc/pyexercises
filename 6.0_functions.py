@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: 
-# 2. Process:
-# 3. Out:
-# 4. My function name, and why return rather than print:
+# 1. In: The function receives two numbers: num1 and num2
+# 2. Process: The function adds the two numbers together
+# 3. Out: The function returns the sum of the two numbers
+# 4. My function name, and why return rather than print: My function is called add_numbers because it adds numbers.
 
 
 # Your code below

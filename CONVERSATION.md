@@ -639,3 +639,20 @@ What does `input` return if the user presses Enter without typing anything?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-17 20:44, in .
+
+**Me:** What does return do in the add_numbers function?
+
+**Tutor:**
+
+The return statement sends a value back to the caller of the function.
+
+```python
+def add_numbers(a, b):
+    result = a + b
+    return result
+```
+
+What is the value returned by `add_numbers(3, 5)`?
