@@ -880,3 +880,34 @@ result = 10 // 3  # result is 3
 ```
 
 Which one do you need for calculating click-through rates (CTR) where you want a decimal value?
+
+---
+## 2026-11-17 22:05, in .
+
+**Me:** What happens if the campaign name is invalid in this code?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 22:05, in .
+
+**Me:** In my 10.0_regular_expressions.py code, what does re.fullmatch check?
+
+**Tutor:**
+
+The function `re.fullmatch` checks if the entire input string matches the given regular expression pattern.
+
+```python
+import re
+
+# Example: Check if the string matches the pattern exactly
+pattern = r"\d{3}"  # Matches exactly three digits
+test_string = "123"
+
+result = re.fullmatch(pattern, test_string)
+print(result)  # Output: <re.Match object; span=(0, 3), match='123'>
+```
+
+What does `re.fullmatch` return if the entire string does not match the pattern?
